@@ -1,0 +1,42 @@
+{
+  "name": "fulljs",
+  "version": "1.0.0",
+  "description": "Learning FullStack Javascript development: MongoDB, Node, React.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node server.js",
+    "dev": "webpack -wd"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/esteficodes/fulljs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/esteficodes/fulljs/issues"
+  },
+  "homepage": "https://github.com/esteficodes/fulljs#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongodb": "^4.1.4",
+    "prop-types": "^15.7.2",
+    "ract": "^0.0.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/node": "^7.x",
+    "@babel/plugin-proposal-class-properties": "^7.3.0",
+    "@babel/preset-env": "^7.3.1",
+    "@babel/preset-react": "^7.0.0",
+    "babel-eslint": "^10.0.1",
+    "babel-loader": "^8.0.5",
+    "eslint": "^8.2.0",
+    "eslint-plugin-react": "^7.12.4",
+    "nodemon": "^2.0.15",
+    "webpack": "^4.29.0",
+    "webpack-cli": "^4.9.1"
+  }
+}
