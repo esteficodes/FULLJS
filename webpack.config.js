@@ -2,8 +2,10 @@ const path = require('path');
 
 module.exports = {
     entry: './src/index.js',
+    devtool: 'source-map',
     output: {
-        path: path.resolve('public'),
+        path: path.join(__dirname,'public'),
+        //path: path.resolve('public'),
         filename: 'bundle.js',
     },
     module:{
@@ -18,3 +20,4 @@ module.exports = {
         ],
     },
 };
+
